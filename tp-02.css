@@ -1,0 +1,317 @@
+/* do-hyeon-regular - latin */
+@font-face {
+    font-family: 'Do Hyeon';
+    font-style: normal;
+    font-weight: 400;
+    src: url('polices/do-hyeon-v11-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('polices/do-hyeon-v11-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('polices/do-hyeon-v11-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('polices/do-hyeon-v11-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('polices/do-hyeon-v11-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('polices/do-hyeon-v11-latin-regular.svg#DoHyeon') format('svg');
+    /* Legacy iOS */
+}
+
+
+
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('polices/open-sans-v18-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('polices/open-sans-v18-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('polices/open-sans-v18-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('polices/open-sans-v18-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('polices/open-sans-v18-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('polices/open-sans-v18-latin-regular.svg#OpenSans') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+
+}
+
+body,
+div {
+    margin: 0;
+}
+
+.page {
+    background-color: #f0f0f0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+
+
+h1,
+h2,
+h3 {
+
+    font-family: "Do Hyeon";
+    color: #7D7C78;
+
+}
+
+/* !!!!!!!   partie du HEADER!!!!!!!!!!!!*/
+
+#header {
+    background-color: #555555;
+    display: flex;
+    padding: 1%;
+}
+
+.Title {
+    /*    margin-top: 2%;*/
+    /*    background-color: black;*/
+    color: white;
+    width: 70%;
+    /*    padding: 1%;*/
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.nav1 ul {
+    /*    margin: 2%;*/
+    list-style-type: none;
+    display: flex;
+    width: 30%;
+
+}
+
+li {
+    background-color: rgb(73.3%, 73.3%, 73.3%);
+    padding: 10% 20%;
+    ;
+    margin: 90% 10%;
+}
+
+li:hover {
+    background-color: rgba(73.3%, 73.3%, 73.3%, 0.3);
+}
+
+
+a {
+    color: white;
+    font-style: normal;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+/* !!!!!!!   partie du CONTENEUR 1!!!!!!!!!!!*/
+.conteneur1 {
+    display: flex;
+}
+
+.conteneur1 h2 {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.section1 {
+    background-color: white;
+    margin: 2% 1% 0% 5%;
+    padding: 1%;
+    width: 70%;
+}
+
+.aside1 {
+    background-color: white;
+    margin: 2% 5% 0% 1%;
+    padding: 1%;
+    width: 30%;
+}
+
+/* !!!!!!!   partie du CONTENEUR 2!!!!!!!!!!!*/
+
+.conteneur2 {
+    display: flex;
+}
+
+.conteneur2 h2 {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.aside2 {
+    background-color: white;
+    margin: 1% 1% 2% 5%;
+    padding: 1%;
+    width: 30%;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 1% 5% 2% 1%;
+    padding: 1%;
+    width: 70%;
+}
+
+/* !!!!!!!   partie du CONTENEUR 3!!!!!!!!!!!*/
+
+
+.conteneur3 {
+
+    background-color: white;
+    margin: 0% 5% 1% 5%;
+    padding: 1%;
+}
+
+.conteneur3 h3 {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* !!!!!!!   partie du CONTENEUR 4!!!!!!!!!!!*/
+
+.conteneur4 {
+    display: flex;
+    flex-direction: row;
+    /*    justify-content: center;*/
+}
+
+.conteneur4 h3 {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.box1,
+.box2,
+.box3 {
+    background-color: white;
+    padding: 1%;
+    width: 30%;
+    /*    margin: auto;*/
+}
+
+.box1 {
+    margin: 0 0.5% 0% 5%;
+}
+
+.box2 {
+    margin: 0 0.5% 0% 0.5%;
+}
+
+.box3 {
+
+    margin: 0% 5% 0% 0.5%;
+}
+
+/*conteneur 4 titres au survol*/
+
+.conteneur4 h2 {
+    background-color: dimgrey;
+    text-align: center;
+    padding: 20%;
+}
+
+.box1 {
+    position: relative;
+    border: 1px solid blue;
+}
+
+#box-relative {
+    width: 400px;
+    margin: 0 auto;
+    height: 260px;
+    /*    border: 2px dashed blue;*/
+    position: relative;
+    overflow: hidden;
+}
+
+/* quand son parent est relative, l'element absolute ne n'a plus pour referent le body, mais son parent relative. */
+#t-absolute {
+    padding-top: 30%;
+    text-align: center;
+    background-color: #555555;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    /* la fonction css calc permet de renvoyer une valeur issue d'un calcul (ici on retranche des pixels à une valeur pourcentage) */
+    left: calc(50% - 400px/2);
+    top: 1500px;
+    transition: 1s;
+}
+
+/* je vise l'enfant absolute lorsque son parent est survolé pour changer en transition sa valeur de top */
+#box-relative:hover #t-absolute {
+    top: 10px;
+
+}
+
+#t-absolute h3 {
+    color: white;
+}
+
+
+
+
+
+
+
+/* !!!!!!!   partie du CONTENEUR FOOTER!!!!!!!!!!!*/
+#footer {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+
+    bottom: 0;
+    margin-top: 2%;
+    background-color: #555555;
+    color: white;
+}
+
+#footer h4,
+p {
+    padding: 3% 2%;
+    text-align: justify;
+}
+
+.voir {
+    color: azure;
+    margin-left: 80%;
+    margin-bottom: 5%;
+    background-color: rgb(73.3%, 73.3%, 73.3%);
+}
+
+
+.voir:hover {
+    background-color: rgba(73.3%, 73.3%, 73.3%, 0.3);
+}
